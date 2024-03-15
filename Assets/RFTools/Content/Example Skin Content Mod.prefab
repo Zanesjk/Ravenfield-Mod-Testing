@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1974425149149318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4390912376968042}
+  - component: {fileID: 114845987390834574}
+  m_Layer: 0
+  m_Name: Example Skin Content Mod
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4390912376968042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974425149149318}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114845987390834574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974425149149318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0506266c4257e6f41b67aec28a0785e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skins:
+  - name: Default Soldier
+    characterSkin:
+      mesh: {fileID: 4300000, guid: e102c3a010d68934e845f7647af137db, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 6aae9279467f9364ea195b86db94cc6b, type: 2}
+      teamMaterial: 0
+    armSkin:
+      mesh: {fileID: 4300000, guid: 10bf618e3066aa44592a34efccb3d8a3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 6aae9279467f9364ea195b86db94cc6b, type: 2}
+      teamMaterial: 0
+    kickLegSkin:
+      mesh: {fileID: 4300000, guid: c6b47f875fc39574ba7c540ecdcce981, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 6aae9279467f9364ea195b86db94cc6b, type: 2}
+      teamMaterial: 0
+    rigSettings:
+      version: 1

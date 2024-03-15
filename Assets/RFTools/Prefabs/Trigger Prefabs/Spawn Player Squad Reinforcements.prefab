@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8649511691635443078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8649511691635443072}
+  - component: {fileID: 5435301416255066768}
+  - component: {fileID: 5057996965336057953}
+  - component: {fileID: 8649511691635443073}
+  - component: {fileID: 8649511691635443075}
+  m_Layer: 0
+  m_Name: Spawn Player Squad Reinforcements
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8649511691635443072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649511691635443078}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5435301416255066768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649511691635443078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1514fc679ce3eea4eaa7af9370887cee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoText: 'Send a signal into this GameObject''s TriggerCondition component to
+    spawn player reinforcements whenever the player''s squad size is less than 3.
+    You can change the squad size threshold by editing the Count value in the TriggerCondition.
+
+
+    The
+    squad will spawn at this game object''s position, and automatically join the
+    player squad. You can edit the spawned squad bot''s loadout and AI in the TriggerSpawnSquad
+    component'
+--- !u!114 &5057996965336057953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649511691635443078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa505965bfc99c4486827fc7dbd0972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 0
+  condition: 100
+  actor:
+    type: 0
+    squad:
+      type: 0
+      spawner: {fileID: 0}
+      closestToPoint: {fileID: 0}
+      filter:
+        filters: []
+      maxDistance: 0
+      team: 0
+    squadmemberIndex: 0
+    vehicle:
+      type: 0
+      vehicleSpawner: {fileID: 0}
+      turretSpawner: {fileID: 0}
+      vehicleInstance: {fileID: 0}
+    seatIndex: 0
+  squad:
+    type: 1
+    spawner: {fileID: 0}
+    closestToPoint: {fileID: 0}
+    filter:
+      filters: []
+    maxDistance: 0
+    team: 0
+  vehicle:
+    type: 0
+    vehicleSpawner: {fileID: 0}
+    turretSpawner: {fileID: 0}
+    vehicleInstance: {fileID: 0}
+  targetGameObject: {fileID: 0}
+  team: 0
+  volume: {fileID: 0}
+  count: 3
+  onTrue:
+    destinations: []
+  onFalse:
+    destinations:
+    - {fileID: 8649511691635443073}
+--- !u!114 &8649511691635443073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649511691635443078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094088eed9467e047b2bd4623fed3e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 0
+  team: 0
+  spawnSource: 0
+  respawnType: 0
+  autoRespawnTime: 10
+  squadMembersToSpawn: 2
+  pathGroup: {fileID: 0}
+  spawnAtPathGroupNodes: 0
+  detectionGroup: {fileID: 0}
+  onSquadAlerted:
+    destinations: []
+  squadState:
+    isAlert: 1
+    walkWhileUnalerted: 1
+    slowDetection: 0
+    leavePathGroupWhenAlerted: 0
+    allowLeaveVehicleWhenStuck: 1
+    followersInvisibleToUnalertedEnemies: 1
+    engagementRule: 0
+    order:
+      type: 0
+      target: {fileID: 0}
+      source: {fileID: 0}
+      targetPoint: {fileID: 0}
+  squadMemberInfo:
+  - overrideName: 
+    overrideSpawnPoint: {fileID: 0}
+    loadout:
+      useAutoPick: 1
+      autoPickStrategy:
+        type: 0
+        distance: 1
+      primary: 
+      secondary: 
+      gear1: 
+      gear2: 
+      gear3: 
+      weaponStates:
+        primary:
+          overrideDefault: 0
+          loadedAmmo: 0
+          spareAmmo: 0
+        secondary:
+          overrideDefault: 0
+          loadedAmmo: 0
+          spareAmmo: 0
+        gear1:
+          overrideDefault: 0
+          loadedAmmo: 0
+          spareAmmo: 0
+        gear2:
+          overrideDefault: 0
+          loadedAmmo: 0
+          spareAmmo: 0
+        gear3:
+          overrideDefault: 0
+          loadedAmmo: 0
+          spareAmmo: 0
+    overrideSkin: {fileID: 0}
+    equipped: 0
+    health: 0
+    hp: 100
+    attackersIgnoreEngagementRule: 0
+    dropsAmmoWhenKicked: 0
+    canDeployParachute: 1
+  squadMemberAIInfo:
+  - skill: 1
+    modifier:
+      meleeChargeRange: 30
+      canSprint: 1
+      ignoreFovCheck: 0
+      dieOnMovementFail: 0
+      alwaysChargeTarget: 0
+      showKillMessage: 1
+      canJoinPlayerSquad: 1
+      maxDetectionDistance: 1000
+      vehicleTopSpeedMultiplier: 1
+  aliveActorsOnTeamCap: 0
+  capCount: 30
+  onSpawnCompleteTrigger:
+    destinations:
+    - {fileID: 8649511691635443075}
+--- !u!114 &8649511691635443075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649511691635443078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ffcedff3b249164f9e82cd538800a19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 0
+  fromSquad:
+    type: 4
+    spawner: {fileID: 8649511691635443073}
+    closestToPoint: {fileID: 0}
+    filter:
+      filters: []
+    maxDistance: 0
+    team: 0
+  toSquad:
+    type: 1
+    spawner: {fileID: 0}
+    closestToPoint: {fileID: 0}
+    filter:
+      filters: []
+    maxDistance: 0
+    team: 0
+  onSquadsJoined:
+    destinations: []

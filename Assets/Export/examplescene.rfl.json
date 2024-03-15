@@ -1,0 +1,15 @@
+﻿{
+    "hasBuiltInGameMode": false,
+    "usesTriggerSystem": false,
+    "visibleInInstantAction": true,
+    "suggestedBots": 60,
+    "displayName": "",
+    "typePrimary": 0,
+    "typeSecondary": 0,
+    "theme": 0,
+    "loadingScreenBackgroundImage": "",
+    "loadingScreenModel": "",
+    "loadingScreenTexture": "",
+    "loadingScreenUseArtworkShader": false,
+    "loadingScreenFOV": 20.0
+}

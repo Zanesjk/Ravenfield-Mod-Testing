@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 539008840
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: examplescene.rfl
+      Dependencies: {}

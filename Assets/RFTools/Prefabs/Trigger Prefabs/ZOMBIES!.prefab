@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4570478805909898237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5566995790727492547}
+  m_Layer: 0
+  m_Name: Player Target Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5566995790727492547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4570478805909898237}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8649511691635443072}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8649511691635443078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8649511691635443072}
+  - component: {fileID: 5435301416255066768}
+  - component: {fileID: 4455540357058029551}
+  - component: {fileID: 6957812174458808259}
+  - component: {fileID: 8325716284857301083}
+  - component: {fileID: 3373741613038437227}
+  m_Layer: 0
+  m_Name: ZOMBIES!
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8649511691635443072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649511691635443078}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5566995790727492547}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5435301416255066768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649511691635443078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1514fc679ce3eea4eaa7af9370887cee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoText: 'Makes all enemies of the enemy team constantly try to move to the player''s
+    position, effectively giving them zombie AI. This is done by issuing a move order
+    with the target point set to the player''s current position.
+
+
+    You can activate/deactivate
+    this object to activate/deactivate this AI behaviour.'
+--- !u!114 &4455540357058029551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649511691635443078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7aeb05102e4684dae29d387974b518, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 1
+  onTriggered:
+    destinations:
+    - {fileID: 6957812174458808259}
+  testModeOnly: 0
+--- !u!114 &6957812174458808259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649511691635443078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f96e8d01bc0d2a4394aed5c70f9a735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 1
+  repeatForever: 1
+  repeatCount: 10
+  repeatDelay: 3
+  send:
+    destinations:
+    - {fileID: 8325716284857301083}
+  finallySend:
+    destinations: []
+--- !u!114 &8325716284857301083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649511691635443078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20784e7822fca8b4bac6d07eb5296121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 1
+  objectToMove: {fileID: 5566995790727492547}
+  target: 1
+  destination: {fileID: 0}
+  actor:
+    type: 0
+    squad:
+      type: 0
+      spawner: {fileID: 0}
+      closestToPoint: {fileID: 0}
+      filter:
+        filters: []
+      maxDistance: 0
+      team: 0
+    squadmemberIndex: 0
+    vehicle:
+      type: 0
+      vehicleSpawner: {fileID: 0}
+      turretSpawner: {fileID: 0}
+      vehicleInstance: {fileID: 0}
+    seatIndex: 0
+  vehicle:
+    type: 0
+    vehicleSpawner: {fileID: 0}
+    turretSpawner: {fileID: 0}
+    vehicleInstance: {fileID: 0}
+  imposterSpawner: {fileID: 0}
+  imposterIndex: 0
+  makeNewParent: 0
+  onSuccess:
+    destinations:
+    - {fileID: 3373741613038437227}
+  onFail:
+    destinations: []
+--- !u!114 &3373741613038437227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649511691635443078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba326b63e45f4b48a61557818bda985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 1
+  squadTarget: 1
+  squad:
+    type: 0
+    spawner: {fileID: 0}
+    closestToPoint: {fileID: 0}
+    filter:
+      filters: []
+    maxDistance: 0
+    team: 0
+  team: 3
+  volume: {fileID: 0}
+  orderType: 0
+  order:
+    type: 4
+    target: {fileID: 0}
+    source: {fileID: 0}
+    targetPoint: {fileID: 5566995790727492547}

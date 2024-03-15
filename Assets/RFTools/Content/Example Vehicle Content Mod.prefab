@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1974425149149318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4390912376968042}
+  - component: {fileID: 114021989382023318}
+  m_Layer: 0
+  m_Name: Example Vehicle Content Mod
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4390912376968042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974425149149318}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114021989382023318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974425149149318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb6ddc24f301b8440a0e01239cb12397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: My Cool Vehicle Mod
+  variants:
+  - name: Default
+    jeep: {fileID: 1957037153246826, guid: 5be93851094662546a1eb8e931e49915, type: 3}
+    jeepMachineGun: {fileID: 1653155070088276129, guid: 74bce18cdb60063439b959d283ea3f72, type: 3}
+    quad: {fileID: 1859335688074354, guid: d00fc95a386dc85488cdb8c09087a143, type: 3}
+    tank: {fileID: 1015463883886784, guid: 392d6d1a5648fa04cb4788da3352ff7b, type: 3}
+    apc: {fileID: 1217950937224824, guid: d07177a3faa7c1e44b9a8673475aec57, type: 3}
+    attackBoat: {fileID: 1179680718401592, guid: 3443673a2240da845becc4eb5b568387, type: 3}
+    rhib: {fileID: 112276, guid: 52df35d025b2824468d771c74bcb9d55, type: 3}
+    attackHelicopter: {fileID: 1428143842826880, guid: c5c5ab033cded7545a05abbf01c80963, type: 3}
+    transportHelicopter: {fileID: 1945722775619106, guid: 7f6745f0f773ad345881d5bd8ebde8aa, type: 3}
+    attackPlane: {fileID: 1000010875896318, guid: 852e889c2fe0aff41bfa1411c9c7a53f, type: 3}
+    bombPlane: {fileID: 1345200708421960, guid: f52606bb26ae0614080cdd5b96b49ec7, type: 3}
+    turretMachineGun: {fileID: 1000012952668372, guid: b31a080f95dac42419936f05296cd73c, type: 3}
+    turretAntiTank: {fileID: 1749085294435400, guid: 9650b8548d65a0e418fe503892ae2d58, type: 3}
+    turretAntiAir: {fileID: 1000014140562526, guid: 5d3bc11c6d028204b9ffcba0a4a99e6d, type: 3}

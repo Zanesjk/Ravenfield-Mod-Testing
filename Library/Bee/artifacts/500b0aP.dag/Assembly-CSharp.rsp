@@ -1,0 +1,597 @@
+-target:library
+-out:"Library/Bee/artifacts/500b0aP.dag/Assembly-CSharp.dll"
+-refout:"Library/Bee/artifacts/500b0aP.dag/Assembly-CSharp.ref.dll"
+-define:UNITY_2022_3_21
+-define:UNITY_2022_3
+-define:UNITY_2022
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION
+-define:ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT
+-define:ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE
+-define:PLATFORM_STANDALONE
+-define:TEXTCORE_1_0_OR_NEWER
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY
+-define:ENABLE_MONO
+-define:NET_STANDARD_2_0
+-define:NET_STANDARD
+-define:NET_STANDARD_2_1
+-define:NETSTANDARD
+-define:NETSTANDARD2_1
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
+-r:"D:/WorkSpace/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/500b0aP.dag/Assembly-CSharp-firstpass.ref.dll"
+-r:"Library/Bee/artifacts/500b0aP.dag/Unity.TextMeshPro.ref.dll"
+-r:"Library/Bee/artifacts/500b0aP.dag/Unity.Timeline.ref.dll"
+-r:"Library/Bee/artifacts/500b0aP.dag/Unity.VisualScripting.Core.ref.dll"
+-r:"Library/Bee/artifacts/500b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
+-r:"Library/Bee/artifacts/500b0aP.dag/Unity.VisualScripting.State.ref.dll"
+-r:"Library/Bee/artifacts/500b0aP.dag/UnityEngine.UI.ref.dll"
+-analyzer:"D:/WorkSpace/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"D:/WorkSpace/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/RFTools/Scripts/Data/ActorSkinData.cs"
+"Assets/RFTools/Scripts/Game Mode/GameModeBase.cs"
+"Assets/RFTools/Scripts/Game Mode/ScriptedGameMode.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/AvoidanceBox.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/CapturePoint.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/CustomGraphCache.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/DamageZone.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/Destructible.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/GameModeInfo.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/Ladder.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/LandingZone.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/LevelColorGrading.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/LevelGravity.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/MinimapCamera.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/Misc/GraphModifier.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/Misc/OptionToggle.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/Misc/VehicleFilter.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/ObjectOptionsToggler.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/PathfindingBox.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/PathfindingLink.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/PathfindingRelevantPoint.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/ReflectionProber.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/ResupplyCrate.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/SceneryCamera.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/SpawnPoint.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/SpawnPointNeighborManager.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/SpeedLimitZone.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/TimeOfDay.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/TurretSpawner.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/VehicleSpawner.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/WaterLevel.cs"
+"Assets/RFTools/Scripts/Map Tools/Components/WaterVolume.cs"
+"Assets/RFTools/Scripts/Map Tools/Other/BackupTerrainData.cs"
+"Assets/RFTools/Scripts/Map Tools/Other/MapMetaData.cs"
+"Assets/RFTools/Scripts/Map Tools/PileTexturer/PileTexturer.cs"
+"Assets/RFTools/Scripts/Misc/ActorSkin.cs"
+"Assets/RFTools/Scripts/Misc/ActorSkinContentMod.cs"
+"Assets/RFTools/Scripts/Misc/DataContainer.cs"
+"Assets/RFTools/Scripts/Misc/InfoComponent.cs"
+"Assets/RFTools/Scripts/Misc/Lifetime.cs"
+"Assets/RFTools/Scripts/Misc/RequireGameVersion.cs"
+"Assets/RFTools/Scripts/Ravenscript Tools/Attributes/IgnoreAttribute.cs"
+"Assets/RFTools/Scripts/Ravenscript Tools/Components/ScriptedBehaviour.cs"
+"Assets/RFTools/Scripts/Ravenscript Tools/Components/Utils/MutatorConfiguration.cs"
+"Assets/RFTools/Scripts/Ravenscript Tools/Components/Utils/MutatorConfigurationField.cs"
+"Assets/RFTools/Scripts/Ravenscript Tools/Components/Utils/MutatorEntry.cs"
+"Assets/RFTools/Scripts/Ravenscript Tools/MutatorContentMod.cs"
+"Assets/RFTools/Scripts/Trigger System/Attributes/AutoPopulateChildReceiversAttribute.cs"
+"Assets/RFTools/Scripts/Trigger System/Attributes/SignalDocAttribute.cs"
+"Assets/RFTools/Scripts/Trigger System/Attributes/TriggerDocAttribute.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Actor/TriggerAddActorAccessory.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Actor/TriggerDeployParachute.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Actor/TriggerEquipWeapon.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Actor/TriggerFireWeapon.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Actor/TriggerKillActor.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Actor/TriggerRagdoll.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Actor/TriggerSpawnImposterActors.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Actor/TriggerTeleport.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Actor/TriggerUpdateActorInfo.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerDetectionGroup.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerEnterVehicle.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerExitVehicle.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerFollowPathGroup.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerIssueSquadOrder.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerJoinSquad.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerLandHelicopter.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerLeavePathGroup.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerLookAt.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerOnSquadRequestsNewOrder.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerSmokePoint.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerSquadFormation.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerSquadRecalculatePaths.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerSyncPathGroup.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/AI/TriggerUpdateSquadInfo.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Events/TriggerOnActorDeath.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Events/TriggerOnActorEnter.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Events/TriggerOnActorEnterVehicle.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Events/TriggerOnCaptured.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Events/TriggerOnDestructibleDamage.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Events/TriggerOnVehicleDestroyed.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Flow/TriggerCompleteAllGroup.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Flow/TriggerCondition.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Flow/TriggerDelay.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Flow/TriggerEndMatch.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Flow/TriggerForEach.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Flow/TriggerLoadCheckpoint.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Flow/TriggerOnStart.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Flow/TriggerPassthroughNode.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Flow/TriggerPickOne.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Flow/TriggerRandom.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Flow/TriggerRepeat.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Flow/TriggerSaveCheckpoint.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Flow/TriggerSequence.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerActivation.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerAnimatorController.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerAudioSnapshot.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerChangeGravity.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerChangeMaterial.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerChangeScene.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerChangeSpawnpointContainer.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerCrossfadeAudio.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerDialog.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerDifficultyOption.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerDisablePlayerInput.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerEffect.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerExplosion.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerHideUI.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerMoveGameObject.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerPlayerOrderPoint.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerRestartMap.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerShowInputPrompt.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerSlowmotion.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerUpdateAmbientLighting.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerUpdateCapturePoint.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerUpdateFog.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerUpdateVehicleInfo.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Level/TriggerUsable.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Objective/TriggerCreateObjective.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Objective/TriggerUpdateObjective.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Ravenscript/TriggerScriptedFunction.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Ravenscript/TriggerScriptedSignal.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Spawn/TriggerPlayerTakeOverActor.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Spawn/TriggerSpawnBloodParticles.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Spawn/TriggerSpawnPlayer.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Spawn/TriggerSpawnPrefab.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Spawn/TriggerSpawnSquad.cs"
+"Assets/RFTools/Scripts/Trigger System/Components/Spawn/TriggerSpawnVehicle.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/ActorAccessory.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/ActorFilter.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/ActorGroup.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/ActorReference.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/OrderDefinition.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/SpriteActorDatabase.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/SquadFilter.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/SquadGroup.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/SquadReference.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/Team.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/VehicleFilter.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/VehicleGroup.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/VehicleReference.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/WeaponReference.cs"
+"Assets/RFTools/Scripts/Trigger System/Data/WeaponState.cs"
+"Assets/RFTools/Scripts/Trigger System/ICompoundTriggerSender.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/AnimationEventReceiver.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/DynamicBlockWalkableBox/DynamicBlockWalkableBox.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/IngameDialogActorDatabaseProvider.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/ScriptedPath/IScriptedPathSeekerCallbackTarget.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/ScriptedPath/Modifiers/AlertModifier.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/ScriptedPath/Modifiers/AnimationModifier.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/ScriptedPath/Modifiers/FireWeaponModifier.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/ScriptedPath/Modifiers/LeanModifier.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/ScriptedPath/Modifiers/LookAtModifier.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/ScriptedPath/Modifiers/ScriptedPathEdgeModifier.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/ScriptedPath/ScriptedPath.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/ScriptedPath/ScriptedPathGroup.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/ScriptedPath/ScriptedPathNode.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/ScriptedPath/ScriptedPathSeeker.cs"
+"Assets/RFTools/Scripts/Trigger System/Misc Components/TriggerVolume/TriggerVolume.cs"
+"Assets/RFTools/Scripts/Trigger System/Other/AiActorController.cs"
+"Assets/RFTools/Scripts/Trigger System/Other/AudioManager.cs"
+"Assets/RFTools/Scripts/Trigger System/Other/EffectUi.cs"
+"Assets/RFTools/Scripts/Trigger System/Other/IngameUI.cs"
+"Assets/RFTools/Scripts/Trigger System/Other/Order.cs"
+"Assets/RFTools/Scripts/Trigger System/Other/Squad.cs"
+"Assets/RFTools/Scripts/Trigger System/Other/SteelInput.cs"
+"Assets/RFTools/Scripts/Trigger System/TriggerBaseComponent.cs"
+"Assets/RFTools/Scripts/Trigger System/TriggerDebug.cs"
+"Assets/RFTools/Scripts/Trigger System/TriggerReceiver.cs"
+"Assets/RFTools/Scripts/Trigger System/TriggerSend.cs"
+"Assets/RFTools/Scripts/Utils/ConditionalFieldAttribute.cs"
+"Assets/RFTools/Scripts/Utils/CopyHeirarcyData.cs"
+"Assets/RFTools/Scripts/Utils/Extensions.cs"
+"Assets/RFTools/Scripts/Utils/MetaDataUtils.cs"
+"Assets/RFTools/Scripts/Utils/SMath.cs"
+"Assets/RFTools/Scripts/Utils/Spring.cs"
+"Assets/RFTools/Scripts/Utils/SynchronizeEditorTransforms.cs"
+"Assets/RFTools/Scripts/Utils/TimedAction.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Airplane.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/AnimationDrivenVehicle.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/ArcadeCar.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Boat.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/CarWheel.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Helicopter.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Seat.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/AircraftDrag.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Cameras/BombCamera.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Cameras/FirstPersonCameraLook.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Cameras/LookAtCamera.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Cameras/ThirdPersonCameraLook.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/DirectionalDragForce.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/FloatingRigidbody.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/IndependentRotation.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/SpinWhenBurning.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/VehicleDestructibleHitbox.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/ActivateForSeatWeapon.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/ActivateWhenAimingWeapon.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/ActivateWhenLocked.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/AimingWheel.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/AimTransform.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/ControlSurface.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/CopyRotation.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/DeltaRotationIndicator.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/EnginePoweredParticles.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/FollowMainCamera.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/ForceHeight.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/GeometryTrack.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/HeadingGuide.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/InheritDeltaPosition.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/InheritDeltaRotation.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/Joystick.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/MountedStabilizedTurretUIAimIndicator.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/ParticlesAmbientColor.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/PitchRollGuide.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/PlayerRecoilCamera.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/PlayerRecoilTransform.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/RollGuide.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/Rotor.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/SteeringWheel.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/UI/ChangeEmissionAtNight.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/UI/CountermeasureStatusIndicator.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/UI/GearIndicator.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/UI/HelicopterHud.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/UI/PlaneHud.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/UI/RefreshRateText.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/UI/Speedometer.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/UI/UiAnimator.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/UI/UiElementTracker.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/UI/WeaponStatusIndicator.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/UvOffset.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/UvVehicleTrackScroll.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle Components/Visual/WaterRipples.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Components/Vehicle.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Other/Actor.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/Other/Hurtable.cs"
+"Assets/RFTools/Scripts/Vehicle Tools/VehicleContentMod.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Ammobox.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/ExplodingProjectile.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/GrenadeProjectile.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Medipack.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/MeleeWeapon.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Misc/AmmoCountUiText.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Misc/MaterialTarget.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Misc/PlayAudioAfterDelay.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Misc/Rangefinder.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Misc/RocketPodShaderController.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Misc/TargetTracker.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Misc/WeaponManager.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Projectile.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/ProximityFuzeProjectile.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/RigidbodyProjectile.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Rocket.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/SoundBank.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/SpinWhenHoldingFire.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/TargetSeekingMissile.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/ThrowableWeapon.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/ToggleableItem.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Vehicle/AutoRepairVehicleWeapon.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Vehicle/CarHorn.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Vehicle/Mortar.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Vehicle/MountedStabilizedTurret.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Vehicle/MountedTurret.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Vehicle/MountedWeapon.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Vehicle/TankTurret.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Weapon.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/WireGuidedMissile.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Components/Wrench.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Other/WeaponHitIndicator.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Other/WeaponHolderPreview.cs"
+"Assets/RFTools/Scripts/Weapon Tools/Other/WeaponUser.cs"
+"Assets/RFTools/Scripts/Weapon Tools/WeaponContentMod.cs"
+-langversion:9.0
+
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+
+
+
+/additionalfile:"Library/Bee/artifacts/500b0aP.dag/Assembly-CSharp.UnityAdditionalFile.txt"

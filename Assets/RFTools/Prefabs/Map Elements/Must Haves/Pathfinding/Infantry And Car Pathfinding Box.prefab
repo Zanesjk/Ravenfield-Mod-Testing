@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1073096089913666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4831546650599770}
+  - component: {fileID: 114097397006718206}
+  - component: {fileID: 114586164379055096}
+  m_Layer: 0
+  m_Name: Infantry And Car Pathfinding Box
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4831546650599770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073096089913666}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 250, y: 40, z: 250}
+  m_LocalScale: {x: 200, y: 100, z: 200}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114097397006718206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073096089913666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75358e12474385e468ce5d36d87a4046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  tiled: 1
+  automaticCellSize: 1
+  cellSize: 0.3
+  characterRadius: 0.6
+  climbHeight: 1
+  coverPointSpacing: 0.05
+  blockers: []
+  maxSlope: 40
+--- !u!114 &114586164379055096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073096089913666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75358e12474385e468ce5d36d87a4046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 1
+  tiled: 1
+  automaticCellSize: 1
+  cellSize: 1
+  characterRadius: 4
+  climbHeight: 1
+  coverPointSpacing: 0.05
+  blockers: []
+  maxSlope: 40

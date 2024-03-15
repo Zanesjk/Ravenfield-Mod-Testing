@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7095740168941445036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7095740168941445033}
+  - component: {fileID: -569297542640185625}
+  - component: {fileID: 7095740168941445038}
+  - component: {fileID: 7095740168941445039}
+  - component: {fileID: 7095740168941445032}
+  m_Layer: 0
+  m_Name: Trigger Spawn Airdrop Vehicle
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7095740168941445033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7095740168941445036}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7095740170071918529}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-569297542640185625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7095740168941445036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1514fc679ce3eea4eaa7af9370887cee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoText: 'Send a signal to this component to spawn a vehicle with an attached
+    parachute. You can configure the vehicle to spawn in the VehicleSpawner component
+    attached to this GameObject. The parachute will automatically be destroyed when
+    the vehicle lands, and the closest AI squad within 100 meters will attempt to
+    enter the vehicle.
+
+
+    You can configure the parachute physics by editing the
+    Internal/Airdrop Parachute prefab rigidbody, you can also disable the AI squad
+    enter vehicle command by deactivating the Airdrop Parachute''s child object "OnLand:
+    Board Closest Squad".'
+--- !u!114 &7095740168941445038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7095740168941445036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0db5fef40542cd49800ae63487bf48c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 1
+  team: 0
+  vehicleSpawner: {fileID: 7095740168941445039}
+  turretSpawner: {fileID: 0}
+  vehicleInfo:
+    isInvulnerable: 0
+    isLocked: 0
+    canBeTakenOverByPlayerSquad: 1
+    playerSeatChange: 0
+  onSpawnCompleteTrigger:
+    destinations:
+    - {fileID: 7095740168941445032}
+--- !u!114 &7095740168941445039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7095740168941445036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be4452c91286774cb49510d28629aea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnBehaviour: 1
+  spawnTime: 16
+  respawnType: 0
+  typeToSpawn: 0
+  prefab: {fileID: 0}
+  priority: 0
+  isRelevantPathfindingPointForBoats: 0
+--- !u!114 &7095740168941445032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7095740168941445036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7231a479a0bc5a646ad499f6b4a44132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 1
+  prefab: {fileID: 6699049765087422507, guid: 7fe9932e6d88f2348bd6e0c154ff200d, type: 3}
+  spawnPoint: {fileID: 7095740170071918529}
+  attachToSpawnPointParentTransform: 0
+  propagateSignalToPrefab: 1
+  onSpawnCompleteTrigger:
+    destinations: []
+--- !u!1 &7095740170071918534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7095740170071918529}
+  m_Layer: 0
+  m_Name: Parachute Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7095740170071918529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7095740170071918534}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7095740168941445033}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

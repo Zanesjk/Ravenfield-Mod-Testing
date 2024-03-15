@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1827132307977348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4196444510357392}
+  - component: {fileID: 114102808254381200}
+  - component: {fileID: 114357195857687926}
+  m_Layer: 0
+  m_Name: Neighbor Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4196444510357392
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827132307977348}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114102808254381200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827132307977348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 218ca5237c3fe494781b9bc9fce8b4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neighbors:
+  - a: {fileID: 0}
+    b: {fileID: 0}
+    landConnection: 1
+    waterConnection: 0
+    oneWay: 0
+  - a: {fileID: 0}
+    b: {fileID: 0}
+    landConnection: 1
+    waterConnection: 0
+    oneWay: 0
+  - a: {fileID: 0}
+    b: {fileID: 0}
+    landConnection: 1
+    waterConnection: 0
+    oneWay: 0
+--- !u!114 &114357195857687926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827132307977348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad06d0d4f582d045a9a8d5a77808145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defenderMainBase: {fileID: 0}
+  defenderBase2: {fileID: 0}
+  defenderBase3: {fileID: 0}
+  attackerBase: {fileID: 0}
+  kingOfTheHillBase: {fileID: 0}

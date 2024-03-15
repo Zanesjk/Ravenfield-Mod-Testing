@@ -1,0 +1,383 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2440614776686521803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2440614776686521398}
+  - component: {fileID: 304519262158935008}
+  - component: {fileID: 2440614776686521399}
+  - component: {fileID: 2440614776686521800}
+  - component: {fileID: 2440614776686521801}
+  - component: {fileID: 2440614776686521396}
+  - component: {fileID: 2440614776686521397}
+  m_Layer: 0
+  m_Name: Area Secure Bark Trigger Group
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2440614776686521398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440614776686521803}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5789831939443501412}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &304519262158935008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440614776686521803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1514fc679ce3eea4eaa7af9370887cee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoText: Triggers the TriggerDialogComponent in On Secure Dialog child once all
+    enemies inside the trigger volume has been killed IF the player is also inside
+    the volume. This is useful for dialog barks such as an actor saying "Area Secure",
+    etc.
+--- !u!114 &2440614776686521399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440614776686521803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c32057f1783c064f96d8e082d561423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    vertices:
+    - {x: -20, y: 20}
+    - {x: 20, y: 20}
+    - {x: 20, y: -20}
+    - {x: -20, y: -20}
+    ceiling: 10
+    floor: 10
+  checkPlayerOnly: 0
+--- !u!114 &2440614776686521800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440614776686521803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 398008da6d6c53d42b1c18eb99db1175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filter:
+    filters:
+    - type: 1
+      team: 3
+      volume: {fileID: 0}
+      vehicle:
+        type: 0
+        vehicleSpawner: {fileID: 0}
+        turretSpawner: {fileID: 0}
+        vehicleInstance: {fileID: 0}
+      squad:
+        type: 0
+        spawner: {fileID: 0}
+        closestToPoint: {fileID: 0}
+        filter:
+          filters: []
+        maxDistance: 0
+        team: 0
+      invertFilter: 0
+    - type: 2
+      team: 3
+      volume: {fileID: 2440614776686521399}
+      vehicle:
+        type: 0
+        vehicleSpawner: {fileID: 0}
+        turretSpawner: {fileID: 0}
+        vehicleInstance: {fileID: 0}
+      squad:
+        type: 0
+        spawner: {fileID: 0}
+        closestToPoint: {fileID: 0}
+        filter:
+          filters: []
+        maxDistance: 0
+        team: 0
+      invertFilter: 0
+  ignoreSilentKills: 0
+  onDeath:
+    destinations:
+    - {fileID: 2440614776686521801}
+--- !u!114 &2440614776686521801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440614776686521803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa505965bfc99c4486827fc7dbd0972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 1
+  condition: 2
+  actor:
+    type: 0
+    squad:
+      type: 0
+      spawner: {fileID: 0}
+      closestToPoint: {fileID: 0}
+      filter:
+        filters: []
+      maxDistance: 0
+      team: 0
+    squadmemberIndex: 0
+    vehicle:
+      type: 0
+      vehicleSpawner: {fileID: 0}
+      turretSpawner: {fileID: 0}
+      vehicleInstance: {fileID: 0}
+    seatIndex: 0
+  squad:
+    type: 0
+    spawner: {fileID: 0}
+    closestToPoint: {fileID: 0}
+    filter:
+      filters: []
+    maxDistance: 0
+    team: 0
+  vehicle:
+    type: 0
+    vehicleSpawner: {fileID: 0}
+    turretSpawner: {fileID: 0}
+    vehicleInstance: {fileID: 0}
+  targetGameObject: {fileID: 0}
+  team: 0
+  volume: {fileID: 2440614776686521399}
+  count: 0
+  onTrue:
+    destinations:
+    - {fileID: 2440614776686521396}
+  onFalse:
+    destinations: []
+--- !u!114 &2440614776686521396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440614776686521803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d185f037bade5744be1f566ec881fa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 1
+  signalType: 0
+  delayTime: 1
+  randomAdd: 0
+  onDelayDoneTrigger:
+    destinations:
+    - {fileID: 2440614776686521397}
+--- !u!114 &2440614776686521397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440614776686521803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa505965bfc99c4486827fc7dbd0972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 1
+  condition: 200
+  actor:
+    type: 0
+    squad:
+      type: 0
+      spawner: {fileID: 0}
+      closestToPoint: {fileID: 0}
+      filter:
+        filters: []
+      maxDistance: 0
+      team: 0
+    squadmemberIndex: 0
+    vehicle:
+      type: 0
+      vehicleSpawner: {fileID: 0}
+      turretSpawner: {fileID: 0}
+      vehicleInstance: {fileID: 0}
+    seatIndex: 0
+  squad:
+    type: 0
+    spawner: {fileID: 0}
+    closestToPoint: {fileID: 0}
+    filter:
+      filters: []
+    maxDistance: 0
+    team: 0
+  vehicle:
+    type: 0
+    vehicleSpawner: {fileID: 0}
+    turretSpawner: {fileID: 0}
+    vehicleInstance: {fileID: 0}
+  targetGameObject: {fileID: 0}
+  team: 3
+  volume: {fileID: 2440614776686521399}
+  count: 0
+  onTrue:
+    destinations: []
+  onFalse:
+    destinations:
+    - {fileID: 6998045196698979951}
+--- !u!1 &3146378325297446931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5789831939443501412}
+  - component: {fileID: 1350375620593446165}
+  - component: {fileID: 6998045196698979951}
+  - component: {fileID: 7778252742835934523}
+  - component: {fileID: 7464305028389685854}
+  - component: {fileID: 871100969922174508}
+  m_Layer: 0
+  m_Name: On Secure Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5789831939443501412
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146378325297446931}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2440614776686521398}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1350375620593446165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146378325297446931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1514fc679ce3eea4eaa7af9370887cee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoText: 'If you want anything else to happen besides just the dialog playing,
+    you can add more receivers to the TriggerPassthroughNode OnTriggered signal.
+
+
+    Keep
+    in mind that this node will only be triggered if the player is inside the volume
+    when the last enemy drives, so '
+--- !u!114 &6998045196698979951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146378325297446931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6d99b4fcab7f744b7b4b317152fd8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 0
+  onTriggered:
+    destinations:
+    - {fileID: 7778252742835934523}
+--- !u!114 &7778252742835934523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146378325297446931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25180ebf807ab1247b56be71f8977fe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 0
+  lines:
+  - actorPose: p grunt
+    overrideName: 
+    text: Area Secure!
+    portraitGrain: 0
+    onSayLine:
+      destinations: []
+    blipSoundPlayback: 0
+    overrideBlipSound: 0
+    overrideBlipCustomClip: {fileID: 0}
+    duration: 5
+  onDialogComplete:
+    destinations:
+    - {fileID: 871100969922174508}
+  stopActiveDialogOnComponentDisabled: 0
+--- !u!114 &7464305028389685854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146378325297446931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1514fc679ce3eea4eaa7af9370887cee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoText: The next component deactivates the entire GameObject after the dialog
+    has finished to remove any overhead from updating
+--- !u!114 &871100969922174508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146378325297446931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 239cde7441efe6042a16c228ec477b66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repeatType: 0
+  objectsToActivate: []
+  objectsToDeactivate:
+  - {fileID: 2440614776686521803}
