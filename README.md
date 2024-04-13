@@ -7,6 +7,6 @@ I originally start to learn about how to add mods to the game but had to pause i
 Hope this time I can finish it. Wish me good luck!
 
 Current task:
-- [ ]Modelling --Through Blender
-- [ ]Texturing --Ibid.
-- [ ]Lighting --Ibid. Optional
+- [ ] Modelling --Through Blender
+- [ ] Texturing --Ibid.
+- [ ] Lighting --Ibid. Optional
