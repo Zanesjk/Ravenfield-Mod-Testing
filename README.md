@@ -6,7 +6,15 @@ I originally started to learn about how to add mods to the game but had to pause
 
 Hope this time I can finish it. Wish me good luck!
 
-Current task:
+Finished task:
+- Create 3D model(Steyr Aug A1 Assault Rifle)
 - [x] Modelling --Through Blender
-- [ ] Texturing --Ibid.
-- [ ] Lighting --Ibid. Optional
+- [x] Texturing --Ibid.
+- [x] Lighting --Ibid. Optional
+
+Current task:
+-Animation(Bind model with character)
+- [x] Resting --Through Blender
+- [ ] Sprint --Ibid.
+- [ ] Reload --Ibid.
+- [ ] TBD --Ibid.
