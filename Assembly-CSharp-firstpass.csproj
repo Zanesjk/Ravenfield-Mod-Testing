@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6A2F10FE-0898-9C1C-9897-D62F3A6958CF}</ProjectGuid>
+    <ProjectGuid>{470A25A2-92B0-E08A-1FDB-C2828A0735FB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -58,8 +58,8 @@
     <Compile Include="Assets\Plugins\Steamworks.NET\autogen\isteaminput.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\types\SteamNetworkingtypes\SteamNetworkingMessage_t.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\autogen\isteamgameserverutils.cs" />
-    <Compile Include="Assets\Plugins\Steamworks.NET\autogen\isteammatchmaking.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\autogen\isteamapplist.cs" />
+    <Compile Include="Assets\Plugins\Steamworks.NET\autogen\isteammatchmaking.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\types\SteamNetworkingtypes\SteamNetworkingConfigValue_t.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\types\SteamTypes\SteamIPAddress_t.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\autogen\isteamremoteplay.cs" />
@@ -98,8 +98,8 @@
     <Compile Include="Assets\Plugins\Steamworks.NET\autogen\isteamgameserverugc.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\CallbackIdentity.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\types\SteamScreenshots\ScreenshotHandle.cs" />
-    <Compile Include="Assets\Plugins\Steamworks.NET\types\SteamInventory\SteamItemDef_t.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\types\SteamMatchmaking\HServerQuery.cs" />
+    <Compile Include="Assets\Plugins\Steamworks.NET\types\SteamInventory\SteamItemDef_t.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\autogen\NativeMethods.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\types\SteamTypes\ManifestId_t.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\types\SteamNetworking\SNetSocket_t.cs" />
@@ -114,8 +114,8 @@
     <Compile Include="Assets\Plugins\Steamworks.NET\autogen\isteamgameservernetworking.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\autogen\SteamEnums.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\types\Steam_api_common\HSteamUser.cs" />
-    <Compile Include="Assets\Plugins\Steamworks.NET\types\SteamRemoteStorage\UGCFileWriteStreamHandle_t.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\autogen\isteamuser.cs" />
+    <Compile Include="Assets\Plugins\Steamworks.NET\types\SteamRemoteStorage\UGCFileWriteStreamHandle_t.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\types\SteamInput\InputDigitalActionHandle_t.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\autogen\isteamnetworkingsockets.cs" />
     <Compile Include="Assets\Plugins\Steamworks.NET\types\SteamNetworkingtypes\SteamNetworkingIdentity.cs" />

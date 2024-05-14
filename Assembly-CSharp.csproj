@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{32C3BDE6-E125-3128-82C1-25D0441455A3}</ProjectGuid>
+    <ProjectGuid>{2B1ECBD2-E238-D28A-43FE-D5A3D14247B4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,9 +56,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\RFTools\Scripts\Map Tools\Components\Misc\GraphModifier.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Events\TriggerOnDestructibleDamage.cs" />
     <Compile Include="Assets\RFTools\Scripts\Map Tools\Components\Ladder.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Data\VehicleFilter.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Events\TriggerOnDestructibleDamage.cs" />
     <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Components\Vehicle Components\Visual\UI\UiAnimator.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Other\AudioManager.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Level\TriggerChangeSpawnpointContainer.cs" />
@@ -102,10 +102,10 @@
     <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Components\Vehicle Components\Visual\ActivateWhenAimingWeapon.cs" />
     <Compile Include="Assets\RFTools\Scripts\Weapon Tools\Other\WeaponUser.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Level\TriggerAnimatorController.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Ravenscript Tools\MutatorContentMod.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Level\TriggerSlowmotion.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Map Tools\Components\CustomGraphCache.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Ravenscript Tools\MutatorContentMod.cs" />
     <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Components\Vehicle Components\Visual\EnginePoweredParticles.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Map Tools\Components\CustomGraphCache.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\ICompoundTriggerSender.cs" />
     <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Components\Vehicle Components\Visual\UI\HelicopterHud.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Data\WeaponReference.cs" />
@@ -113,13 +113,13 @@
     <Compile Include="Assets\RFTools\Scripts\Weapon Tools\Components\Misc\PlayAudioAfterDelay.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Actor\TriggerSpawnImposterActors.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Spawn\TriggerSpawnBloodParticles.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Trigger System\Other\Order.cs" />
     <Compile Include="Assets\RFTools\Scripts\Utils\Spring.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Trigger System\Other\Order.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Flow\TriggerEndMatch.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Misc Components\ScriptedPath\Modifiers\ScriptedPathEdgeModifier.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Data\ActorReference.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Trigger System\Misc Components\DynamicBlockWalkableBox\DynamicBlockWalkableBox.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\AI\TriggerSquadRecalculatePaths.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Trigger System\Misc Components\DynamicBlockWalkableBox\DynamicBlockWalkableBox.cs" />
     <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Components\Vehicle Components\Visual\ParticlesAmbientColor.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Events\TriggerOnCaptured.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Level\TriggerCrossfadeAudio.cs" />
@@ -179,8 +179,8 @@
     <Compile Include="Assets\RFTools\Scripts\Map Tools\Other\BackupTerrainData.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Spawn\TriggerSpawnPlayer.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Actor\TriggerKillActor.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Weapon Tools\Components\ToggleableItem.cs" />
     <Compile Include="Assets\RFTools\Scripts\Map Tools\Components\WaterVolume.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Weapon Tools\Components\ToggleableItem.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Events\TriggerOnActorEnterVehicle.cs" />
     <Compile Include="Assets\RFTools\Scripts\Ravenscript Tools\Components\ScriptedBehaviour.cs" />
     <Compile Include="Assets\RFTools\Scripts\Weapon Tools\WeaponContentMod.cs" />
@@ -195,8 +195,8 @@
     <Compile Include="Assets\RFTools\Scripts\Utils\CopyHeirarcyData.cs" />
     <Compile Include="Assets\RFTools\Scripts\Misc\Lifetime.cs" />
     <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Components\Vehicle Components\Visual\ActivateForSeatWeapon.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Weapon Tools\Components\Misc\WeaponManager.cs" />
     <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Other\Actor.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Weapon Tools\Components\Misc\WeaponManager.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Events\TriggerOnActorEnter.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Ravenscript\TriggerScriptedFunction.cs" />
     <Compile Include="Assets\RFTools\Scripts\Weapon Tools\Components\WireGuidedMissile.cs" />
@@ -206,26 +206,26 @@
     <Compile Include="Assets\RFTools\Scripts\Utils\TimedAction.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Data\SquadReference.cs" />
     <Compile Include="Assets\RFTools\Scripts\Misc\DataContainer.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Trigger System\Misc Components\ScriptedPath\ScriptedPathSeeker.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Flow\TriggerRepeat.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Data\ActorSkinData.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Components\Vehicle Components\Visual\AimTransform.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Trigger System\Misc Components\ScriptedPath\Modifiers\LookAtModifier.cs" />
     <Compile Include="Assets\RFTools\Scripts\Map Tools\Components\SpawnPointNeighborManager.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Data\ActorSkinData.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Trigger System\Misc Components\ScriptedPath\ScriptedPathSeeker.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Components\Vehicle Components\Visual\AimTransform.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Flow\TriggerRepeat.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Trigger System\Misc Components\ScriptedPath\Modifiers\LookAtModifier.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\AI\TriggerLeavePathGroup.cs" />
     <Compile Include="Assets\RFTools\Scripts\Weapon Tools\Components\TargetSeekingMissile.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Map Tools\Components\CapturePoint.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Data\ActorAccessory.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Map Tools\Components\CapturePoint.cs" />
     <Compile Include="Assets\RFTools\Scripts\Map Tools\Components\AvoidanceBox.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Data\VehicleReference.cs" />
     <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Components\Vehicle Components\Visual\Rotor.cs" />
     <Compile Include="Assets\RFTools\Scripts\Utils\Extensions.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Actor\TriggerUpdateActorInfo.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Data\SquadGroup.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Actor\TriggerUpdateActorInfo.cs" />
     <Compile Include="Assets\RFTools\Scripts\Weapon Tools\Components\Weapon.cs" />
     <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Components\Vehicle Components\IndependentRotation.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Spawn\TriggerSpawnSquad.cs" />
     <Compile Include="Assets\RFTools\Scripts\Weapon Tools\Components\Vehicle\AutoRepairVehicleWeapon.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Spawn\TriggerSpawnSquad.cs" />
     <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Components\Vehicle Components\Visual\FollowMainCamera.cs" />
     <Compile Include="Assets\RFTools\Scripts\Map Tools\Components\PathfindingLink.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Level\TriggerDisablePlayerInput.cs" />
@@ -236,8 +236,8 @@
     <Compile Include="Assets\RFTools\Scripts\Weapon Tools\Components\Vehicle\TankTurret.cs" />
     <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Components\Vehicle Components\Visual\Joystick.cs" />
     <Compile Include="Assets\RFTools\Scripts\Vehicle Tools\Components\Vehicle Components\Visual\AimingWheel.cs" />
-    <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Objective\TriggerCreateObjective.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Data\SquadFilter.cs" />
+    <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Objective\TriggerCreateObjective.cs" />
     <Compile Include="Assets\RFTools\Scripts\Map Tools\Components\LevelColorGrading.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Level\TriggerUsable.cs" />
     <Compile Include="Assets\RFTools\Scripts\Trigger System\Components\Level\TriggerUpdateCapturePoint.cs" />
@@ -1280,7 +1280,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{6A2F10FE-0898-9C1C-9897-D62F3A6958CF}</Project>
+      <Project>{470A25A2-92B0-E08A-1FDB-C2828A0735FB}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
