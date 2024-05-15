@@ -18,3 +18,4 @@ Current task:
 - [ ] Sprint --Ibid.
 - [ ] Reload --Ibid.
 - [x] Switching --Ibid.
+- [ ] Special inspection --Ibid. Optional
