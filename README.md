@@ -17,5 +17,5 @@ Current task:
 - [x] Resting --Through Blender
 - [ ] Sprint --Ibid.
 - [ ] Reload --Ibid.
-- [x] Switching --Ibid.
+- [ ] Switching --Ibid.
 - [ ] Special inspection --Ibid. Optional
